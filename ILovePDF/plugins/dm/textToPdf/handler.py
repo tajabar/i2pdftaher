@@ -93,7 +93,7 @@ async def text_to_pdf(bot, callbackQuery):
 
         if background == 6:
             background = await ask_for_bg(
-                bot, callbackQuery=callbackQuery, text="send me an image"
+                bot, callbackQuery=callbackQuery, text="ارسل لي صورة"
             )
 
         TXT[callbackQuery.message.chat.id] = []
@@ -151,10 +151,10 @@ async def text_to_pdf(bot, callbackQuery):
 
         pdf.set_title("NABIL A NAVAB")
         pdf.set_subject(
-            "pdf created using nabilanavab open source Telegram Pdf Bot\n\nContact Nabil A Navab: telegram.dog/nabilanavab ❤"
+            "\n\nContact TAHER: @ta_ja199 ❤"
         )
-        pdf.set_author("https://github.com/nabilanavab/ilovepdf")
-        pdf.set_producer("by nabilanavab@gmail.com")
+        pdf.set_author("https://telegramic.org/bot/i2pdfbot/")
+        pdf.set_producer("by taheralnoori19999@gmail.com")
 
         pdf.add_font("headFont", "", FONT[h_font], uni=True)
         pdf.set_font("headFont", "", size=30)
