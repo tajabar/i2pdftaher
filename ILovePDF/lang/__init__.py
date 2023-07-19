@@ -7,10 +7,10 @@ file_name = "ILovePDF/lang/__init__.py"
 from configs.config import settings
 
 langList = {
-        "eng" : ["🅴🅽🅶🅻🅸🆂🅷", "English"] ,
-        "arb" : ["🅰🆁🅰🅱🅸🅲", "عربي"] ,
+        "eng" : ["🅰🆁🅰🅱🅸🅲", "عربي"] ,
+        "arb" : ["🅴🅽🅶🅻🅸🆂🅷", "English"] ,
     }
-
+  
 # Display Lang in a Beutiful Way
 async def disLang(lang):
     if lang in langList:
