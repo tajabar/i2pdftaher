@@ -16,11 +16,11 @@ async def download(current, total, bot, callbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton(
-                        "📥 DOWNLOADED {:.2f}% 📥".format(current / total * 100),
+                        "📥 DOWNLOADED(تحميل) {:.2f}% 📥".format(current / total * 100),
                         callback_data=f"{callbackQuery.data}",)
                 ],[
                     InlineKeyboardButton(
-                        "🗑️ CANCEL 🗑️", callback_data=f"c{callbackQuery.data[1:]}")
+                        "🗑️ الالغاء 🗑️", callback_data=f"c{callbackQuery.data[1:]}")
                 ]]
             )
         )
@@ -59,11 +59,11 @@ async def pdfDriver(bot, callbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton(
-                       "🍪 COOKING DATA 🍪", callback_data=f"{callbackQuery.data}"
+                       "🍪 تحضير بيانات 🍪", callback_data=f"{callbackQuery.data}"
                     )
                 ],[
                     InlineKeyboardButton(
-                        "🗑️ CANCEL 🗑️", callback_data=f"c{callbackQuery.data[1:]}")
+                        "🗑️ الالغاء 🗑️", callback_data=f"c{callbackQuery.data[1:]}")
                 ]]
             ),
         )
@@ -84,10 +84,10 @@ async def pdfDriver(bot, callbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton(
-                        "🐍 STARTED UPLOADING 🐍", callback_data=f"{callbackQuery.data}",)
+                        "🐍 بدا رفع 🐍", callback_data=f"{callbackQuery.data}",)
                 ],[
                     InlineKeyboardButton(
-                        "🗑️ CANCEL 🗑️", callback_data=f"c{callbackQuery.data[1:]}")
+                        "🗑️ الالغاء 🗑️", callback_data=f"c{callbackQuery.data[1:]}")
                 ]]
             ),
         )
@@ -98,7 +98,7 @@ async def pdfDriver(bot, callbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton(
-                        text="♻️ SEARCH AGAIN ♻️", switch_inline_query_current_chat="",)
+                        text="♻️ ابحث مرة أخرى ♻️", switch_inline_query_current_chat="",)
                 ]]
             ),
         )
