@@ -68,7 +68,7 @@ _FILTER = "👻 إضافة عوامل التصفية 👻"
 _CODEC = "__ لا يمكنني فعل أي شيء بهذا الملف .__ 😏\n\n🐉 `خطأ الترميز` 🐉"
 _CODEC_CB = "❌ خطأ في برنامج الترميز ❌"
 _ENCRYTED_FILE = " تم تشفير الملف  🔐\n\n اسم الملف: `{}`\n حجم الملف: `{}`"
-_DECRYPT = "فك التشفير 🔓"
+_DECRYPT = "🔓فك التشفير🔓"
 _ENCRYPT = "🔐 تشفير 🔐"
 _REASON = "n\n السبب: {}"
 _BAN = "مرحبًا {}\n\n لبعض الأسباب لا تستطيع استخدام هذا البوت :("
@@ -84,10 +84,10 @@ _SPLIT = "✂️ تقسيم PDF"
 _MERGE = "🧬 دمج ملفات PDF"
 _COMPRESS = "🗜 ضغط PDF"
 _OCR = "📝 إضافة طبقة التعرف الضوئي على الحروف 📝"
-_STAMP = "™ ️ STAMP PDF ™ ️"
+_STAMP = "™ ️ ختم PDF ™ ️"
 _DRAW = "🎨 رسم PDF 🎨"
 _BAW = "⚫ أسود / أبيض ⚪"
-_SAT = "🪐 SATURARE 🪐"
+_SAT = "🪐 مشبعة 🪐"
 _INV = "🖌 عكس ملف PDF 🖌"
 _ADD_PG = "🟢 إضافة صفحات 🟢"
 _DEL_PG = "🔴 حذف الصفحات🔴"
@@ -364,7 +364,8 @@ INDEX = {
     "_total" : _TOTAL_PG, "_canceledAT" : _CANCEL_AT, "_upload" : _UPLOADING_AL, "finished" : _COMPLETED_SUCC, "cancelCB" : _EXIT,
     "_cancelCB" : {_CANCEL : "close|P2I"}, "_canceledCB" : {_CANCELED_CB : "close|P2IDONE"}, "_completed" : {_COMPLETED : "close|P2ICOMP"},
     "sizeLoad" : _SIZE_LOAD, "mergeDl" : _MERGE_DL, "merge" : _START_MERGE, "watermark_txt" : _WATERMARK_TXT, "watermark_pdf" : _WATERMARK_PDF,
-    "watermark_img" : _WATERMARK_IMG, "adding_wa" : _ADD_WATERMARK, "readAgain" : _READ_AGAIN, "zipTAR" : _ZIP_CONVERT, "aio" : _AIO_PROCESS,}
+    "watermark_img" : _WATERMARK_IMG, "adding_wa" : _ADD_WATERMARK, "readAgain" : _READ_AGAIN, "zipTAR" : _ZIP_CONVERT, "aio" : _AIO_PROCESS,
+    "pyromodASK_4" : _ASK_PG, "pdfSplitError" : _ASK_PGERROR}
 INLINE = {
     "search" : _SEARCH, "openBot" : _OPEN_BOT, 'query' : _TOTAL, 'lang_t' : _SET_LANG, "lang_d" : _LANG, 'caption' : _INLINE_CAP,
     "lang_b" : { _SELECT_LANG : "nabilanavab" }, 'sear_t' : _SEARCH_PDF, 'sear_d' : _SEARCH_DES, 'noDB' : '🏃‍♂️🏃‍♂️', 'refer_t' : _REFER_T,
