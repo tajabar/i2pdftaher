@@ -291,7 +291,7 @@ feedbackMsg = f"[{_FEEDBACK}]({settings.FEEDBACK})"
 BAN = {
     "UCantUse" : _BAN, "UCantUseDB" : _BAN + _REASON, "GroupCantUse" : _BAN_G, "GroupCantUseDB" : _BAN_G + _REASON,
     "cbNotU" : _BAN_CB, "Fool" : _FOOL, "Force" : _FORCE, "ForceCB" : { _JOIN_CHANNEL : "{0}", _REFRESH : "refresh{1}" },
-    "banCB" : {_CREATE_BOT : f"{settings.SOURCE_CODE}", _SOURCE : f"{settings.SOURCE_CODE}", _CHANNEL : "https://t.me/ilovepdf_bot"}}
+    "banCB" : {_CREATE_BOT : f"{settings.SOURCE_CODE}", _SOURCE : f"{settings.SOURCE_CODE}", _CHANNEL : "https://t.me/i2pdfbot"}}
 PDF_MESSAGE = {
     "pg" : _PG_NUM , "pdf" : _PDF_REPLY, "encryptCB" : { _DECRYPT : "#decrypt", _CLOSE : "close|all" },
     "pdf_button" : { _META[1:] : "#metadata", _PREVIEW[1:] : "#preview", _ENCRYPT[1:] : "#encrypt", _DECRYPT[1:] : "#decrypt", _SPLIT[1:] : "#split",
@@ -321,12 +321,12 @@ BUTTONS = {
     "color" : { _WATER_COLOR : "nabilanavab", "᠎᠎᠎⚪️" : "#wa|{0}|{1}|{2}|W", "᠎⚫️" : "#wa|{0}|{1}|{2}|B", "᠎᠎🟤" : "#wa|{0}|{1}|{2}|C",
         "᠎🔴" : "#wa|{0}|{1}|{2}|R", "᠎᠎🟢" : "#wa|{0}|{1}|{2}|G", "🔵" : "#wa|{0}|{1}|{2}|N", "᠎᠎🟡" : "#wa|{0}|{1}|{2}|Y",
         "᠎᠎🟠" : "#wa|{0}|{1}|{2}|O", "🟣" : "#wa|{0}|{1}|{2}|V", _BACK : "pdf|wa|{0}|{1}" },
-    "stamp" : { _B_STAMP : "nabilanavab", "Not For Public Release 🤧" : "pdf|stp|10", "For Public Release 🥱" : "pdf|stp|8",
-        "Confidential 🤫" : "pdf|stp|2", "Departmental 🤝" : "pdf|stp|3", "Experimental 🔬" : "pdf|stp|4", "Expired 🐀" : "pdf|stp|5",
-        "Final 🔧" : "pdf|stp|6", "للتعليق 🗯️" : "pdf|stp|7", "Not Approved 😒" : "pdf|stp|9", "Approved 🥳" : "pdf|stp|0",
-        "Sold ✊" : "pdf|stp|11", "Top Secret 😷" : "pdf|stp|12", "Draft 👀" : "pdf|stp|13", "AsIs 🤏" : "pdf|stp|1", _BACK : "pdf"},
+    "stamp" : { _B_STAMP : "nabilanavab", "ليست للنشر العام 🤧" : "pdf|stp|10", "للنشر العام 🥱" : "pdf|stp|8",
+        "مؤتمن 🤫" : "pdf|stp|2", "الأقسام 🤝" : "pdf|stp|3", "تجريبي 🔬" : "pdf|stp|4", "منتهي الصلاحية 🐀" : "pdf|stp|5",
+        "أخير 🔧" : "pdf|stp|6", "للتعليق 🗯️" : "pdf|stp|7", "غير مقبول 😒" : "pdf|stp|9", "موافقة 🥳" : "pdf|stp|0",
+        "مُباع ✊" : "pdf|stp|11", "سري للغاية 😷" : "pdf|stp|12", "مسودة 👀" : "pdf|stp|13", "كماهي 🤏" : "pdf|stp|1", _BACK : "pdf"},
     "stampA" : { _STAMP_COLOR : "nabilanavab", "احمر ❤️" : "#spP|{}|r", "ازرق 💙" : "#spP|{}|b", "اخضر 💚" : "#spP|{}|g", "أصفر 💛" : "#spP|{}|c1",
-        "Pink 💜" : "#spP|{}|c2", "Hue 💚" : "#spP|{}|c3", "White 🤍" : "#spP|{}|c4", "Black 🖤" : "#spP|{}|c5", _BACK : "pdf|stp" }}
+        "وردي 💜" : "#spP|{}|c2", "Hue 💚" : "#spP|{}|c3", "أبيض 🤍" : "#spP|{}|c4", "Black 🖤" : "#spP|{}|c5", _BACK : "pdf|stp" }}
 PROGRESS = {"progress" : _PROGRESS , "upFileCB" : {f"📤 .. {_UPLOADING} .. 📤" : "nabilanavab"}, "cbPRO_D" : ["📤 {:.2f}% 📤", _CANCEL], "cbPRO_U" : ["📤 {:.2f}% 📤", _CANCEL]}
 GENERATE = {"noQueue" : _NO_QUEUE, "noImages" : _NO_IMG, "currDL" : _DL_IMG, "geting" : _GEN_PDF, "getFileNm" : _REN_PDF, "deleteQueue" : _DLT_QUEUE, "getingCB" : {_GEN_CB : "nabilanavab"},}
 DOCUMENT = {
