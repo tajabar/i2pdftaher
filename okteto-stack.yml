@@ -9,3 +9,6 @@ services:
       LOG_CHANNEL: $LOG_CHANNEL
       MONGODB_URI: $MONGODB_URI
       UPDATE_CHANNEL: $UPDATE_CHANNEL
+    resources:
+      cpu: 3000m
+      memory: 8Gi
