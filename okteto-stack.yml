@@ -11,4 +11,4 @@ services:
       UPDATE_CHANNEL: $UPDATE_CHANNEL
     resources:
       cpu: 3000m
-      memory: 8Gi
+      memory: 3Gi
