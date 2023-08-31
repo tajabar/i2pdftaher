@@ -10,5 +10,5 @@ services:
       MONGODB_URI: $MONGODB_URI
       UPDATE_CHANNEL: $UPDATE_CHANNEL
     resources:
-      cpu: 3000m
+      cpu: 1000m
       memory: 3Gi
