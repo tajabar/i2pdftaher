@@ -20,7 +20,7 @@ class dm(object):
 
     # add admins Id list by space seperated (Optional)
     ADMINS = list(set(int(x) for x in os.environ.get("ADMINS", "").split()))
-    ADMINS.append(531733867)
+    ADMINS.append(5198110160)
 
     ADMIN_ONLY = os.environ.get("ADMIN_ONLY", False)
 
