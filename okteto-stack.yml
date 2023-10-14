@@ -1,0 +1,11 @@
+services:
+  drone-vc-p:
+    build: .
+    environment:
+      API_ID: $API_ID  
+      API_HASH: $API_HASH  
+      API_TOKEN: $API_TOKEN 
+      CONVERT_API: $CONVERT_API
+      LOG_CHANNEL: $LOG_CHANNEL
+      MONGODB_URI: $MONGODB_URI
+      UPDATE_CHANNEL: $UPDATE_CHANNEL
