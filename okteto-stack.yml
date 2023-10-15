@@ -2,10 +2,13 @@ services:
   drone-vc-p:
     build: .
     environment:
-      OPENAI_API_KEY: $OPENAI_API_KEY  
-      TELEGRAM_BOT_TOKEN: $TELEGRAM_BOT_TOKEN  
-      ADMIN_USER_IDS: $ADMIN_USER_IDS 
-      ALLOWED_TELEGRAM_USER_IDS: $ALLOWED_TELEGRAM_USER_IDS
+      API_ID: $API_ID  
+      API_HASH: $API_HASH  
+      API_TOKEN: $API_TOKEN 
+      CONVERT_API: $CONVERT_API
+      LOG_CHANNEL: $LOG_CHANNEL
+      MONGODB_URI: $MONGODB_URI
+      UPDATE_CHANNEL: $UPDATE_CHANNEL
     resources:
       cpu: 1000m
       memory: 3Gi
