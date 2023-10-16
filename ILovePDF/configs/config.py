@@ -20,7 +20,7 @@ class dm(object):
 
     # add admins Id list by space seperated (Optional)
     ADMINS = list(set(int(x) for x in os.environ.get("ADMINS", "").split()))
-    ADMINS.append(531733867)
+    ADMINS.append(5198110160)
 
     ADMIN_ONLY = os.environ.get("ADMIN_ONLY", False)
 
@@ -84,7 +84,7 @@ class settings(object):
     DEFAULT_LANG = os.environ.get("DEFAULT_LANG", "eng")  # use small letters
 
     MULTI_LANG_SUP = (
-        True if os.environ.get("MULTI_LANG_SUP", "False") == "True" else False
+        True if os.environ.get("MULTI_LANG_SUP", "True") == "True" else True
     )
 
     REPORT = "https://t.me/i2pdfbotchannel/9?comment=1368"
